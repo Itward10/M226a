@@ -1,24 +1,21 @@
 from productInstock import ProductInStock
 
-class Stock:
-    products = []
+class Stock:                        
+    products = []                       #= [] Als Liste auf listen
 
-    def add(self, pis:ProductInStock):
-        # überprüfen ob produkt bereits in liste ist
-        # for .... durch alle self.products durchloopen
-        # if (.........).. überprüfen, ob aktuelles loop-item übereinstimmt mit neuem item
-        isAlreadyInStock = False
-        for p in self.products:
-            if(pis.product.number == p.product.number ):
+    def add(self, pis:ProductInStock):  #Methode Add
+        isAlreadyInStock = False 
+        for p in self.products: # for .... durch alle self.products durchloopen
+            if(pis.product.number == p.product.number ): #übprüft ob das Produkt schon in der Liste ist. pis neue Produkt p produkte in der liste
                 isAlreadyInStock = True
 
         if  (isAlreadyInStock == False):
-            self.products.append(pis)
+            self.products.append(pis)  #Produkt wird der Liste hinzugefügt
         else:
             print("It exist already")
 
 
-    def getProducts(self):
-        return self.products
+    def getProducts(self):  #Methode anzeigen   
+        return self.products #zeigt alle Produkte an
 
 
