@@ -71,6 +71,9 @@ Im Hintergrund nicht für den Kunden Sichtbar aber für einen Mitarbeiter, den L
 
 ### Unser Programm
 
+![image](https://user-images.githubusercontent.com/89509863/141362386-ab5335f9-1347-4e46-97c9-90b7b9029c95.png)
+![image](https://user-images.githubusercontent.com/89509863/141362465-e8131189-7349-4a35-bd67-9b2887be059f.png)
+
 
 ### OO-Konzepte
 
